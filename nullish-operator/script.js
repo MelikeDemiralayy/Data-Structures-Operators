@@ -56,6 +56,14 @@ for (const [i, el] of menu.entries()) {
 //diğer kısa devre oparatörlerinden farkı(||) şudur:"??" yalnızca null ve undefined değerlere tepki verir. false,0,boş string giib falsy değerleri
 //kabul eder ve onları varsayılan değerlerle değiştirmez.
 
+const openingHours1 = {
+    thu: { open: 9, close: 20 },
+    fri: { open: 8, close: 19 },
+    sat: { open: 7, close: 18 } 
+};
+for(const day of Object.keys(openingHours1)){
+    console.log(day);
+}
 
 
 //2.örnek
