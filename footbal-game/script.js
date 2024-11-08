@@ -28,9 +28,6 @@
 //   },
 // };
 
-
-
-
 // Coding Challenge #1
 
 /* 
